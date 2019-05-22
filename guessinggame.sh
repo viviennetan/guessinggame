@@ -1,4 +1,6 @@
-
+function guess {
+	echo  -n "Guess again."
+}
 value=`ls | wc -l`
 echo "Please guess the number of files in your directory."
 
@@ -10,9 +12,11 @@ do
 		if [[ $count -gt $value ]]
 		then
 			echo "The number is smaller than $count"
+			guess
 		elif [[ $count -lt $value ]]
 		then
 			echo "The number is greater than $count"
+			guess
 		fi
 done
 

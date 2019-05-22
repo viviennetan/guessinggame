@@ -1,3 +1,3 @@
 # Guessing Game
-Wed May 22 22:48:13 DST 2019
-Number of lines: 20
+Wed May 22 22:58:42 DST 2019
+Number of lines: 24
